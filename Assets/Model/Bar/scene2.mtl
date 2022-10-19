@@ -1,0 +1,80 @@
+# Exported from 3D Builder
+
+newmtl Mat_0
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_0.png
+
+newmtl Mat_1
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_12.png
+
+newmtl Mat_2
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_13.png
+
+newmtl Mat_3
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_1.png
+
+newmtl Mat_4
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_2.png
+
+newmtl Mat_5
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_3.png
+
+newmtl Mat_6
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_4.png
+
+newmtl Mat_7
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_5.png
+
+newmtl Mat_8
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_6.png
+
+newmtl Mat_9
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_7.png
+
+newmtl Mat_10
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_8.png
+
+newmtl Mat_11
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_9.png
+
+newmtl Mat_12
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_10.png
+
+newmtl Mat_13
+Kd 1.000000 1.000000 1.000000
+map_Kd texture_11.png
+
+newmtl Mat_14
+Kd 1.000000 1.000000 1.000000
+map_Kd a4048531311_10.jpg.jpeg
+
+newmtl Green_0
+Kd 0.129412 0.733333 0.298039
+
+newmtl Mat_15
+Kd 1.000000 1.000000 1.000000
+map_Kd Atlas_baseColor_2834719412083903128.png
+
+newmtl Mat_16
+Kd 1.000000 1.000000 1.000000
+map_Kd Sushi_Bar_baseColor.png
+
+newmtl Mat_17
+Kd 1.000000 1.000000 1.000000
+map_Kd b1712ef25df80e3db469dfc09e144de7.jpg.jpeg
+
+newmtl Mat_18
+Kd 1.000000 1.000000 1.000000
+map_Kd Scene_-_Root_baseColor_11513724780431603008.png
