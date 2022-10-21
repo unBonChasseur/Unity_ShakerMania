@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 722b92b5a3aa9c84691feed8b3ea5376, type: 3}
+  m_Name: RandomAlcoolBottle
+  m_EditorClassIdentifier: 
+  _law_random:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _prefabs:
+  - {fileID: 7502784757210622380, guid: 3cabdaa295b5955458d8d1bc31298b7f, type: 3}
+  - {fileID: 1621591630424219558, guid: b552ddc906a91774f8acfed7c3cdc710, type: 3}
+  - {fileID: 5376862415658324380, guid: 9372255b9a6dc264ea6605d906bc35f4, type: 3}
+  - {fileID: 8169528823370481913, guid: 5cefef3a26430fb40a61df5a709ee466, type: 3}
+  - {fileID: 3726016536924892931, guid: 32cd40768feb47940a3fea373024909d, type: 3}
+  - {fileID: 3188726215282209961, guid: bfd62144123f9fd4891d9c28ec401d49, type: 3}
+  - {fileID: 5679002058328000343, guid: 0091325b30b0d644d8099356a18d9557, type: 3}
+  - {fileID: 3293434028516634259, guid: 7b335c1efc1010447b6bd06e1f44efc9, type: 3}
+  - {fileID: 7978284268923649813, guid: 2bed3f8c007c38c4eb232fdf3cf5bbbb, type: 3}
+  - {fileID: 1650857011112644260, guid: ade734928c08bb346bfe69f72156f5bf, type: 3}

@@ -17,14 +17,20 @@ public class GlassLiquid : MonoBehaviour
 
     float previousLevel;
 
-    List<Boisson> boissons;
+    [SerializeField]
+    private float m_maxLiquid = .6f;
+    [SerializeField]
+    private float m_minLiquid = .55f;
+
+
+    public List<Boisson> boissons;
     Boisson currentBoisson;
 
 
     void Start()
     {
         rend = gameObject.GetComponent<Renderer>();
-        rend.material.SetFloat("_Fill", 0.4f);
+        rend.material.SetFloat("_Fill", m_minLiquid);
         filling = false;
         timer = 0f;
         previousLevel = 0.0f;
@@ -41,7 +47,7 @@ public class GlassLiquid : MonoBehaviour
             timer += Time.deltaTime;
 
             float level = rend.material.GetFloat("_Fill");
-            if (level < 0.85f)
+            if (level < m_maxLiquid)
             {
                 level += Time.deltaTime * speed;
                 if(currentBoisson != null)
@@ -67,7 +73,7 @@ public class GlassLiquid : MonoBehaviour
                     blue_top += boisson.topColor.b * boisson.volumeInGlass;
                 }
 
-                float totVolume = (rend.material.GetFloat("_Fill") - 0.4f);
+                float totVolume = (rend.material.GetFloat("_Fill") - m_minLiquid);
                 red_side = red_side / totVolume;
                 green_side = green_side / totVolume;
                 blue_side = blue_side / totVolume;

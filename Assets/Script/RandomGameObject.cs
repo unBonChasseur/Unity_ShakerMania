@@ -23,14 +23,15 @@ namespace Visit.Random
 
         public GameObject to_replace;
 
-        private void Update()
-        {
-            if (to_replace.transform.position.y < .5f)
-                to_replace.transform.position = transform.position;
-        }
-        public void ReplaceByRandomObject()
+        private void Start()
         {
             to_replace = transform.childCount != 0 ? transform.GetChild(0).gameObject : null;
+            if (ReplaceAtStart)
+                ReplaceByRandomObject();
+        }
+
+        public void ReplaceByRandomObject()
+        {
             ReplaceRandomObject(transform.position, transform.rotation);
         }
 

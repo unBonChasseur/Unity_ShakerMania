@@ -8,7 +8,6 @@ public class SpawnManager : MonoBehaviour
     public RandomGameObject[] m_randomBottles;
     public GameObject[] m_spawnObjects;
 
-
     // Start is called before the first frame update
     public void InitializeSpawn()
     {
@@ -26,6 +25,7 @@ public class SpawnManager : MonoBehaviour
                     j = 0;
                 }
             }
+            names[i] = m_randomBottles[i].to_replace.name;
 
         }
     }

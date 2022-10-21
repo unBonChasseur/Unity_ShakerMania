@@ -43,7 +43,9 @@ public class PourLiquid : MonoBehaviour
 
     private void pourLiquid()
     {
-        if (((bottle.transform.rotation.eulerAngles.x >= 90 && bottle.transform.rotation.eulerAngles.x <= 270) || (bottle.transform.rotation.eulerAngles.z >= 90 && bottle.transform.rotation.eulerAngles.z <= 270)) && Liquid.GetComponent<Pouring>().getCurrentLevelOfLiquid() > Liquid.GetComponent<Pouring>().getMinLiquid())
+        if (((bottle.transform.rotation.eulerAngles.x >= 90 && bottle.transform.rotation.eulerAngles.x <= 270) || 
+            (bottle.transform.rotation.eulerAngles.z >= 90 && bottle.transform.rotation.eulerAngles.z <= 270)) && 
+            Liquid.GetComponent<Pouring>().getCurrentLevelOfLiquid() > Liquid.GetComponent<Pouring>().getMinLiquid())
         {
             RaycastHit hit;
             if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, layer))

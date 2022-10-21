@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ModelCyberMunk 2 Collid et canvas.unity
+    guid: 5ca62745827ff2348ae4723ad5c49f58
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8d11e896418760f448b98a2af7070038, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6d3f86250af9da84bbe2ec960b412149, type: 2}

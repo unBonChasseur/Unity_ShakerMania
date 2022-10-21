@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pouring : MonoBehaviour
 {
     [SerializeField]
-    private float speed;
+    private float speed = .05f;
 
     [SerializeField]
     private GameObject liquid;
@@ -14,10 +14,10 @@ public class Pouring : MonoBehaviour
     private string m_liquidName;
 
     [SerializeField]
-    private float m_maxLiquid = .639f;
+    private float m_maxLiquid = .9f;
 
     [SerializeField]
-    private float m_minLiquid = .546f;
+    private float m_minLiquid = .1f;
 
     Renderer rend; 
     void Start()

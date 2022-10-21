@@ -10,7 +10,7 @@ public class BottleUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        m_ui.SetActive(false);
+        //m_ui.SetActive(false);
     }
 
     // Update is called once per frame

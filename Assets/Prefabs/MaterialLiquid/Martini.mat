@@ -38,6 +38,6 @@ Material:
     - _WobbleX: 0
     - _WobbleZ: 0
     m_Colors:
-    - _SideLiquidColor: {r: 0.9386859, g: 0.87136734, b: 0.78353804, a: 0}
-    - _SurfaceLiquidColor: {r: 0.913099, g: 0.87136734, b: 0.72305536, a: 0}
+    - _SideLiquidColor: {r: 0.9622642, g: 0.004538993, b: 0.5626555, a: 0}
+    - _SurfaceLiquidColor: {r: 0.754717, g: 0.024919916, b: 0.10653364, a: 0}
   m_BuildTextureStacks: []

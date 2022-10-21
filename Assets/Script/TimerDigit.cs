@@ -25,11 +25,9 @@ public class TimerDigit : MonoBehaviour
             yield return new WaitForSeconds(1f);
             GetComponent<Text> ().text = string.Format("{0:0}:{1:00}", Mathf.Floor(temps /60), temps % 60);
         }
-        if(temps == 0)
-        {
-            Debug.Log("PERDU Fin du temps");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + sceneIndex);
-        }
+        //Debug.Log("PERDU Fin du temps");
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + sceneIndex);
+        
     }
 
     
