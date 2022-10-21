@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 1669784457168380092}
   - component: {fileID: 1988055070559362242}
   - component: {fileID: -4563380454153001993}
+  - component: {fileID: -6785480669922303008}
   m_Layer: 0
   m_Name: Chivas
   m_TagString: Untagged
@@ -78,16 +79,17 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621591630424219558}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.74113435, y: -0.6598742, z: 1.5623696}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1960319557520638025}
   - {fileID: 806620809}
+  - {fileID: 2972632597289467012}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 180}
 --- !u!33 &1813434046506867054
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -282,6 +284,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.09560601, y: 0.09560603, z: 0.2433659}
   m_Center: {x: -2.5362636e-15, y: 0, z: 0.12168295}
+--- !u!114 &-6785480669922303008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621591630424219558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd83e1c9100a1040b251c197d502476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ui: {fileID: 405535961443179877}
 --- !u!1 &1960319557520638026
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,6 +397,8 @@ MonoBehaviour:
   speed: 0.05
   liquid: {fileID: 806620808}
   m_liquidName: Chivas
+  m_maxLiquid: 0.639
+  m_minLiquid: 0.546
 --- !u!114 &160997293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,3 +414,74 @@ MonoBehaviour:
   MaxWobble: 0.03
   WobbleSpeed: 1
   Recovery: 1
+--- !u!1001 &7424184669959004672
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6474332393976019968}
+    m_Modifications:
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.154
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.331
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6755036381870856883, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_Text
+      value: Chivas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109143468659261285, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+      propertyPath: m_Name
+      value: Text
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+--- !u!1 &405535961443179877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7109143468659261285, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+  m_PrefabInstance: {fileID: 7424184669959004672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2972632597289467012 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5641014752623844996, guid: cd57f5317568b73458c7319d423dab69, type: 3}
+  m_PrefabInstance: {fileID: 7424184669959004672}
+  m_PrefabAsset: {fileID: 0}
