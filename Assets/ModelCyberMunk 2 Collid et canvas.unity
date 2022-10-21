@@ -1345,7 +1345,7 @@ GameObject:
   - component: {fileID: 214976582}
   - component: {fileID: 214976581}
   - component: {fileID: 214976580}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Etagere 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2770,7 +2770,7 @@ GameObject:
   - component: {fileID: 330181106}
   - component: {fileID: 330181105}
   - component: {fileID: 330181104}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bar angle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3184,7 +3184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 402491092}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Les box et mesh colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3855,7 +3855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 764194942}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EtagereCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3954,7 +3954,7 @@ GameObject:
   - component: {fileID: 877950444}
   - component: {fileID: 877950443}
   - component: {fileID: 877950442}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Etagere 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5250,7 +5250,7 @@ GameObject:
   - component: {fileID: 943680115}
   - component: {fileID: 943680114}
   - component: {fileID: 943680113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Etagere 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6584,7 +6584,7 @@ GameObject:
   - component: {fileID: 983845602}
   - component: {fileID: 983845601}
   - component: {fileID: 983845600}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bar Collider 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8025,7 +8025,7 @@ GameObject:
   - component: {fileID: 1177052277}
   - component: {fileID: 1177052276}
   - component: {fileID: 1177052275}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Etagere 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9252,7 +9252,7 @@ GameObject:
   - component: {fileID: 1189725752}
   - component: {fileID: 1189725751}
   - component: {fileID: 1189725750}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Etagere 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10888,7 +10888,7 @@ GameObject:
   - component: {fileID: 1356166194}
   - component: {fileID: 1356166193}
   - component: {fileID: 1356166192}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Etagere 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14366,7 +14366,7 @@ GameObject:
   - component: {fileID: 1556995028}
   - component: {fileID: 1556995027}
   - component: {fileID: 1556995026}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bar Collider 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15669,7 +15669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1614998068}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BarCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15940,7 +15940,7 @@ GameObject:
   - component: {fileID: 1739887376}
   - component: {fileID: 1739887375}
   - component: {fileID: 1739887374}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EtagereFond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18904,6 +18904,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 94
       objectReference: {fileID: 0}
+    - target: {fileID: 2415458149323498472, guid: 8951f78b743389a40ac7b87809822438, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2415458149323498476, guid: 8951f78b743389a40ac7b87809822438, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -18923,6 +18927,14 @@ PrefabInstance:
     - target: {fileID: 4510450344416424692, guid: 8951f78b743389a40ac7b87809822438, type: 3}
       propertyPath: m_Name
       value: verreClient
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510450344416424692, guid: 8951f78b743389a40ac7b87809822438, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510450344416424692, guid: 8951f78b743389a40ac7b87809822438, type: 3}
+      propertyPath: m_TagString
+      value: Glass
       objectReference: {fileID: 0}
     - target: {fileID: 8865476139326601110, guid: 8951f78b743389a40ac7b87809822438, type: 3}
       propertyPath: m_RootOrder
